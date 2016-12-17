@@ -487,6 +487,24 @@ h3, h4 {
 		    	width:0px;
 		    }
 		}	
+
+
+		.button {
+			position:absolute;
+			right:15px;
+			top:50%;
+			transform:translateY(-50%);
+		    display: block;
+		    width: 30px;
+		    height: 30px;
+		    background: #044f8a;
+		    border-radius: 50%;
+		    border-bottom: 4px solid rgba(28, 66, 77, 0.85);
+		    border-left: 4px solid #202748;
+		    border-top: 4px solid #202748;
+		    border-right: 4px solid rgba(28, 66, 77, 0.85);
+		}
+
 		.line__wrap1 {
 		  top: 2%;
 		  left: -48px;
