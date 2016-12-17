@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Adam McMillan: Web Developer</title>
+	<link rel="stylesheet" href="CSS/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<nav class="fixed__nav">
+		<a href="#banner" class="nav__button home">Home</a>
+		<a href="#about" class="nav__button bio">Bio</a>
+		<a href="#works" class="nav__button portfolio">Portfolio</a>
+		<a href="#contact__me" class="nav__button contact">Contact</a>
+	</nav>
+
+	<!-- make banner wrap pos:rel to position name absolute, keep banner fixed -->
+	<div class="banner__wrap">
+		<div class="banner" id="banner">
+			<div class="logo">
+				<h1 class="name first__name">Adam</h1>
+				<h1 class="name last__name"><span class="key__letter">M</span>cMilla<span class="key__letter">n</span></h1>
+				<div class="line"></div>
+				<h2 class="name title">Front End Web Developer.</h2>
+			</div>
+		</div>
+	</div>
+	<div class="main__back">
+		<div class="about" id="about">
+			<h3>Need to Know!</h3>
+			<div class="bio__wrap">
+			<!-- //----Take buttons out of button wrap for slide out effect----// -->
+				<div class="headshot">
+					<img src="images/h1_cropped.jpg" alt="Adams Headshot"> <!-- //Photo by Pam Lau pamlau.com @pamlau// -->
+					<div class="one__liners">					
+						<div class="line__wrap line__wrap1">
+							<div class="button__wrap button__only button__wrap1">
+								<a href="javascript:void(0);" class="button"></a>
+								<p class="bio__line bio__line1">On my way to become a professional web-developer.</p>
+							</div>							
+						</div>	
+						<div class="line__wrap line__wrap2">
+							<div class="button__wrap button__only button__wrap2">
+								<a href="javascript:void(0);" class="button"></a>
+								<p class="bio__line bio__line2">Goal-oriented team player with a positive attitude.</p>
+							</div>								
+						</div>	
+						<div class="line__wrap line__wrap3">
+							<div class="button__wrap button__only button__wrap3">
+								<a href="javascript:void(0);" class="button"></a>
+								<p class="bio__line bio__line3">Attending HackerYou Bootcamp January 2017</p>
+							</div>								
+						</div>	
+						<div class="line__wrap line__wrap4">
+							<div class="button__wrap button__only button__wrap4">
+								<a href="javascript:void(0);" class="button"></a>
+								<p class="bio__line bio__line4">Batman is the light, He is the way.</p>
+							</div>								
+						</div>	
+					</div>
+				</div>				
+			</div>
+		</div>
+	<!-- //----save jpegs of sites and previews for lightbox to function----// -->
+		<div class="works" id="works">
+			<h3>My Work!</h3>
+			<div class="gallery">
+				<div class="works__wrap works__wrap1">
+					<a href="" class="fancybox" rel="gallery__box"><img src="https://unsplash.it/200/200" alt="Single Page Site Preview" class="preview preview1"></a>
+					<p class="description">Single Page Site</p>
+				</div>
+				<div class="works__wrap works__wrap2">
+					<a href="" class="fancybox" rel="gallery__box"><img src="https://unsplash.it/200/200" alt="PSD Conversion Preview" class="preview preview2"></a>
+					<p class="description">PSD Conversion</p>
+				</div>
+				<div class="works__wrap works__wrap3">
+					<a href="" class="fancybox" rel="gallery__box"><img src="https://unsplash.it/200/200" alt="Coming Soon!" class="preview preview3"></a>
+					<p class="description">Coming Soon!</p>
+				</div>
+				<div class="works__wrap works__wrap4">
+					<a href="" class="fancybox" rel="gallery__box"><img src="https://unsplash.it/200/200" alt="Coming Soon!" class="preview preview4"></a>
+					<p class="description">Coming Soon!</p>
+				</div>
+			</div>
+		</div>
+		<div class="contact__me" id="contact__me">
+			<!-- <h3>Contact Me!</h3> -->
+			<div class="form__wrap">
+				<form action="">
+					<div class="input input1">
+						<input type="text" name="name" class="contact__name form" placeholder="    Name" required="true">
+					</div>
+
+					<div class="input input2">
+						<input type="email" class="email form" name="email" placeholder="    Email" required="true">
+					</div>
+
+					<div class="input input3">
+						<textarea name="message" id="message" class="message form" cols="70" rows="10" placeholder="    What are you curious about?"></textarea>
+					</div>
+					<div class="input input4">
+						<input type="submit" value="Send" class="send form">
+					</div>
+				</form>
+			</div>
+			<div class="main__map" id='main__map'></div>
+		</div>
+		<footer class="footer" id="footer">
+			<h4>Site Designed & Developed by Adam McMillan, Wolf Pack Alpha.</h4>
+			<div class="icons">
+				<i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+				<i class="fa fa-linkedin fa-1x" aria-hidden="true"></i>
+				<i class="fa fa-instagram fa-1x" aria-hidden="true"></i>
+			</div>	
+		</footer>
+	</div>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="Plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+	<script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script>
+	<script src="js/main.js"></script>
+	<script src="js/maps.js"></script>
+	
+	
+
+	
+
+</body>
+</html>
